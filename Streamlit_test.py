@@ -50,7 +50,8 @@ if page == "Visualization Dashboard":
 #Third Page
 if page == "Market Basket Analysis by Product Type":
 
-    data = pd.read_excel(r'Cleaned_MarketBasket_2023.xlsx')
+    url = "https://github.com/wga04/Capstone/blob/2408c0b13b4c0376cc8547b9ecbfa87c87de354d/Cleaned_MarketBasket_2023.xlsx"
+    data = pd.read_excel(url)
     df = data 
 
     st.markdown("""<strong>Market Basket Analysis by Product Type</strong>""",unsafe_allow_html=True
