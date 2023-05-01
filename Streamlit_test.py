@@ -50,7 +50,7 @@ if page == "Visualization Dashboard":
 #Third Page
 if page == "Market Basket Analysis by Product Type":
     
-    data = pd.read_csv('Cleaned_MarketBasket_2023-Copy.csv')
+    data = pd.read_csv('Streamlit_MarketBasketAnalysis.csv')
     df = data 
 
     st.markdown("""<strong>Market Basket Analysis by Product Type</strong>""",unsafe_allow_html=True
