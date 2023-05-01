@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import math
 from streamlit_option_menu import option_menu
 from mlxtend.frequent_patterns import association_rules
 from mlxtend.frequent_patterns import apriori
