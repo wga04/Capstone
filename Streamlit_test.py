@@ -50,7 +50,7 @@ if page == "Visualization Dashboard":
 #Third Page
 if page == "Market Basket Analysis by Product Type":
 
-    data = pd.read_excel('Cleaned_MarketBasket_2023.xlsx')
+    data = pd.read_excel(r'Cleaned_MarketBasket_2023.xlsx')
     df = data 
 
     st.markdown("""<strong>Market Basket Analysis by Product Type</strong>""",unsafe_allow_html=True
